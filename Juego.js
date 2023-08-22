@@ -45,7 +45,7 @@ Reinico.addEventListener("click", function (){
     scroreJugador= 0;
     Score.innerHTML = scroreJugador;
     ScorePC.innerHTML = scorePc;
-    
+    subtitulo.innerHTML = ""
     
 })
 
@@ -108,11 +108,7 @@ function juego(){
     hooverPC()
     ganador()
 
-    console.log(scroreJugador) ;
-    console.log("el resultado es", scorePc)
-    console.log("yo elegi", seleJugador)
-    console.log("el pc elgio",opcionPC)
-    console.log("el numero aleatorio", nAletarorio())
+
 }
 function ganador(){
     if (scroreJugador== 5 && scorePc== 5){
@@ -156,4 +152,3 @@ function hooverPC (){
     }
 
 }
-addEventListener
